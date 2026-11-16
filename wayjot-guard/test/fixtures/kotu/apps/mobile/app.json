@@ -1,0 +1,2 @@
+{ "expo": { "android": { "usesCleartextTraffic": true, "permissions": ["ACCESS_BACKGROUND_LOCATION", "ACCESS_FINE_LOCATION"] },
+  "ios": { "infoPlist": { "NSLocationAlwaysAndWhenInUseUsageDescription": "x" } } } }
