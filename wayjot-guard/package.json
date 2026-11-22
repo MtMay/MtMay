@@ -1,0 +1,13 @@
+{
+  "name": "wayjot-guard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Wayjot kural kitapçığına göre güvenlik ve kalite tarayıcısı (bağımlılıksız).",
+  "type": "module",
+  "bin": { "wayjot-guard": "bin/wayjot-guard.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/guard.test.mjs",
+    "tara": "node bin/wayjot-guard.mjs"
+  }
+}
